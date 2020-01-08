@@ -80,7 +80,7 @@ class InteractiveServer:
     #
 
     def display_banner(self):
-        default_title = _('Welcome to use Jumpserver open source fortress system')
+        default_title = 'Welcome to use HP Bridge fortress system'
         header_title = config.get('HEADER_TITLE') or default_title
         self.client.send(char.CLEAR_CHAR)
         self.display_logo()
